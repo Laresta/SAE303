@@ -5,6 +5,7 @@
     <title>test</title>
     <script src="https://unpkg.com/vue@next"></script>
     <script src="../dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="../src/master.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </head>
@@ -45,12 +46,13 @@
       <div class="row">
         <div class="col-sm-2">yeee</div>
         <div class="col">
-        <!-- Titre du reportage-->
-        <h1<>Titre du reportage</h1>
-        <!-- video player ici  -->
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=KnUSbKtcBzE" allowfullscreen></iframe>
-        </div>
+          <!-- Titre du reportage-->
+          <div id"titre">
+            <p class="h1">Vichy , ville d'eau</p>
+          </div>
+          <!-- video player ici  -->
+        <video src="../src/sample-5s.mp4" height="100%" width="100%">
+        </video>
         <!-- Résumé rapide du reportage -->
         <p>Résumé rapide du reportage</p>
         <!-- carrousel de photos de nous avec nos noms -->
