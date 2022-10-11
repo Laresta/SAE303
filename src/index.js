@@ -1,2 +1,1 @@
-let p = document.createElement('<p>ye</p>')
-$('body').append(p)
+$(".nav-item").css("margin-left","1.5em")
