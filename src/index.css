@@ -19,10 +19,8 @@
 
 footer{
   width: 100%;
-  background-color: #99958b;
+  background-color: #AEDFFF;
   color: white;
-  -webkit-box-shadow: 5px 10px 9px 5px rgba(0,0,0,0.5);
-  box-shadow: 5px 10px 9px 5px rgba(0,0,0,0.5);
 }
 
 #carrousel img{
@@ -38,4 +36,13 @@ h1 {
   text-align: center;
   color: red;
   background-color: #ADD8E6;
+}
+
+#suiv{
+  border-radius: 20px;
+  background-color: #ADD8E6;
+  color: black;
+}
+#prec{
+  border-radius: 20px;
 }
