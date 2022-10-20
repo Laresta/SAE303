@@ -7,12 +7,10 @@ let imgs = $(recherche)
 
 function carprec() {
   let idimgact = parseInt($(".imgactive").attr("id"))
-  console.log(idimgact);
   let imgprec = idimgact - 1
   if (idimgact === 0) {
     imgprec = 3
   }
-  console.log(imgprec);
   imgs.each(function(){
     if (parseInt($(this).attr("id")) === imgprec ){
       $(this).toggleClass('imgactive')
@@ -22,13 +20,11 @@ function carprec() {
 }
 
 function carsuiv() {
-  console.log("ahhhhh");
   let idimgact = parseInt($(".imgactive").attr("id"))
   let imgsuiv = idimgact + 1
   if (idimgact === 3) {
     imgsuiv = 0
   }
-  console.log(imgsuiv);
   imgs.each(function(){
     if (parseInt($(this).attr("id")) === imgsuiv ){
       $(this).toggleClass('imgactive')
