@@ -1,0 +1,14 @@
+footer{
+  display: table-row;
+  height: 1px;
+}
+.container {
+  height: auto;
+}
+
+html body   {
+  display: table;
+  height: 100%;
+  width: 100%
+
+}
